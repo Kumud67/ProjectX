@@ -19,3 +19,18 @@ Spring Data JPA (optional)
 H2 / MySQL (or any database)
 Maven / Gradle
 
+
+
+📂 Project Structure
+src/
+ ├── main/
+ │   ├── java/com/example/project/
+ │   │   ├── controller/
+ │   │   ├── service/
+ │   │   ├── repository/
+ │   │   └── model/
+ │   └── resources/
+ │       ├── application.properties
+ │       └── data.sql (optional)
+ └── test/
+
